@@ -39,14 +39,14 @@ class main(commands.Cog):
     @client.command()
     async def hit(ctx):
       user = str(ctx.author)[0:-5]
-      await ctx.send(file = discord.File(f"{path}\\res\img\hit.jpg"))
+      await ctx.send(file = discord.File(f"{path[:-3]}\\res\img\hit.jpg"))
       await ctx.send("That's a hit")
       print(f"[{user}] CMD: hit")
 
     @client.command()
     async def miss(ctx):
       user = str(ctx.author)[0:-5]
-      await ctx.send(file = discord.File(f"{path}\\res\img\miss.jpg"))
+      await ctx.send(file = discord.File(f"{path[:-3]}\\res\img\miss.jpg"))
       await ctx.send("That's a miss")
       print(f"[{user}] CMD: miss")
     

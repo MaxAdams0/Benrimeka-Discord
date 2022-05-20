@@ -2,11 +2,10 @@
 import discord
 from discord.ext import commands
 import main
-import spotify
 
 # Setup/Cogs
 client = commands.Bot(command_prefix = "-", case_sensative = False)
-cogs = [main, spotify]
+cogs = [main]
 for i in range(len(cogs)):
   cogs[i].setup(client)
 
