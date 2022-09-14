@@ -26,4 +26,4 @@ async def on_command_error(ctx, error):
   print(error)
 
 # Bot token, do not publish
-client.run("OTA4MjI0MDg2MDE3MjA0MjU0.GjVZc1.1Usx4b5fbrZagYbBOENRqNlaRjeClGxIzXPR28")
+client.run("INSERT BOT TOKEN HERE")
